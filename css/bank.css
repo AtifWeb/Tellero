@@ -1,0 +1,318 @@
+/* export-body-top */
+.bank-container aside .aside-bottom {
+  /* margin-top: 10rem; */
+}
+.bank-body,
+.export-body {
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+  flex: 1;
+}
+.bank-body-top,
+.export-body-top {
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 0.35rem 1rem;
+  box-shadow: 0 3px 10px 0 rgb(33 108 252 / 16%);
+}
+.export-body-top {
+  padding: 0.8rem 2rem;
+  border-radius: 15px;
+  height: 121px;
+}
+.right-arrow-icon-mbl,
+.left-arrow-icon-mbl {
+  display: none;
+}
+.bank-body-top .left img,
+.export-body-top .left img {
+  width: 60px;
+}
+.bank-body-top .left h1,
+.export-body-top .left h1 {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.bank-body-top,
+.bank-body-top .left,
+.bank-body-top .right,
+.export-body-top,
+.export-body-top .left,
+.export-body-top .right {
+  display: flex;
+  align-items: center;
+}
+.country-dropdown-head {
+  display: flex;
+  align-items: center;
+  width: 40px;
+  justify-content: space-between;
+  /* margin-right: 1rem; */
+  cursor: pointer;
+}
+
+.export-body-top .right svg {
+  margin-right: 2.3rem;
+  margin-left: 2.3rem;
+}
+.finance-dropdown {
+  position: relative;
+
+  /* margin-left: 1.5rem; */
+}
+.finance-dropdown-content {
+  position: absolute;
+  top: 110%;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 24px;
+  z-index: 222;
+  min-height: 112px;
+  display: none;
+
+  flex-direction: column;
+  justify-content: center;
+}
+.finance-dropdown-content.active {
+  display: flex;
+}
+.finance-dropdown-content li {
+  font-size: 16px;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.finance-dropdown-content li:hover {
+  /* background-color: rgb(250, 250, 250); */
+}
+.finance-dropdown-head {
+  width: 272px;
+  height: 73px;
+  padding: 0rem 1.5rem;
+  display: flex;
+  align-items: center;
+
+  border-radius: 20px;
+  box-shadow: 0 3px 10px 0 rgb(33 108 252 / 16%);
+  cursor: pointer;
+}
+.finance-dropdown-head h4 {
+  flex: 1;
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+/* .bank-body-top .right li,
+.export-body-top .right li {
+  width: 40px;
+  height: 40px;
+
+  border-radius: 50%;
+} */
+/* .bank-body-top .right li,
+.export-body-top .right li {
+  justify-content: center;
+  cursor: pointer;
+} */
+/* .bank-body-top .right li:hover,
+.export-body-top .right li:hover {
+  background: linear-gradient(to bottom, #01ddff, #0085ff);
+}
+.bank-body-top .right li:hover svg path,
+.export-body-top .right li:hover svg path {
+  fill: #fff;
+  stroke: #fff;
+} */
+/* .bank-body-top .right li + li,
+.export-body-top .right li + li {
+  margin-left: 0.4rem;
+} */
+.bank-body-bottom,
+.export-body-bottom {
+  flex: 1;
+  margin-top: 2rem;
+}
+.bank-advantages {
+  width: 72%;
+  height: 100%;
+  background-color: #fff;
+  padding: 3rem;
+  padding-bottom: 1rem;
+  border-radius: 20px;
+  box-shadow: 7px 7px 10px #eff0f1, -7px -7px 10px #eff0f1;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.bank-connection-box-wrapper {
+  position: absolute;
+  top: 50%;
+  width: 60%;
+  right: -30%;
+  transform: translateY(-50%);
+  border-radius: 25px;
+  background: linear-gradient(to right, #eceef3, #fafbfc, #fafbfc);
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+.bank-connection-box {
+  width: 95%;
+  padding: 2rem 0rem;
+  margin: auto;
+  border-radius: 25px;
+  background-color: #fff;
+
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: center;
+}
+.bank-connection-box .add-connection-heading {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.bank-connection-box .add-connection-heading h1 {
+  font-size: 20px;
+  color: #11193c;
+  margin-left: 10px;
+}
+.bank-connection-box small {
+  color: #11193c;
+  font-size: 12px;
+}
+.bank-connection-box button {
+  border-radius: 5px;
+  box-shadow: 0 0 26px 0 #01d6ff;
+  background-image: linear-gradient(to right, #01e6ff, #0077ff);
+  margin-top: 1.3rem;
+
+  text-transform: capitalize;
+  color: #fff;
+  outline: none;
+  border: 1px solid #fff;
+  font-size: 16px;
+  padding: 1rem 3rem;
+  cursor: pointer;
+}
+.step-dots-img {
+  margin-top: 1.5rem;
+}
+.bank-advantages ul {
+  width: 70%;
+  padding-left: 2rem;
+}
+.bank-advantages ul li {
+  display: flex;
+  align-items: flex-start;
+}
+.bank-advantages ul li + li {
+  margin-top: 5rem;
+}
+.bank-advantages ul li img {
+  margin-right: 10px;
+}
+.bank-advantages ul li h3 {
+  color: #11193c;
+  font-size: 18px;
+  font-weight: 500;
+}
+.bank-advantages ul li p {
+  font-size: 15px;
+  margin-top: 10px;
+  color: #11193c;
+}
+.bank-advantages > p {
+  flex: 1;
+  color: #11193c;
+  display: flex;
+  align-items: flex-end;
+  font-size: 13px;
+  margin-top: 1rem;
+}
+.bank-advantages > p > a {
+  color: #0077ff;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 900px) {
+  .bank-connection-box-wrapper {
+    /* position: static; */
+    left: 0;
+    background: #fff;
+    width: 100%;
+    top: -250px;
+  }
+  .bank-advantages {
+    width: 100%;
+    margin-top: 450px;
+    padding: 3rem 1rem;
+    box-shadow: 0px 0px 0px transparent;
+  }
+  .bank-advantages ul {
+    width: 100%;
+  }
+  .export-body-top {
+    padding: 20px;
+    height: 75px;
+  }
+  .export-body-top .left h1 {
+    font-size: 1.25rem !important;
+  }
+  .bank-advantages ul {
+    padding-left: 0px;
+  }
+  .bank-advantages {
+    padding: 3rem 2rem;
+  }
+  .bank-advantages > p {
+    flex: 0;
+  }
+}
+@media screen and (max-width: 650px) {
+  .export-body-top {
+    position: relative;
+  }
+  .right-arrow-icon-mbl,
+  .left-arrow-icon-mbl {
+    display: block;
+  }
+  .right-arrow-icon-mbl {
+    flex: 1;
+  }
+  .export-body-top .right {
+    position: absolute;
+    padding: 0rem 1rem;
+    z-index: 2;
+    left: 100%;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 15px;
+    transition: 0.5s ease all;
+
+    height: 100%;
+  }
+  .finance-dropdown-head {
+    width: 100%;
+    height: 60px;
+  }
+  .finance-dropdown-head > img:last-child {
+    width: 14px;
+  }
+  .finance-dropdown-head h4 {
+    font-size: 13px;
+    margin-right: 10px;
+  }
+  .finance-dropdown-content li {
+    font-size: 12px;
+  }
+  .export-body-top .right svg {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
