@@ -41,7 +41,7 @@ aside {
   height: 100vh;
   position: sticky;
   top: 0.6rem;
-  min-width: 272px;
+  min-width: 260px;
   overflow-y: auto;
   /* background: red !important; */
 }
@@ -76,8 +76,8 @@ aside .logo-wrapper p {
   line-height: 0.5;
   padding-left: 5px;
 }
-.side-group-drop-down{
-  position:relative;
+.side-group-drop-down {
+  position: relative;
 }
 .side-group-head {
   background-color: #fff;
@@ -103,53 +103,53 @@ aside .logo-wrapper p {
   font-size: 10px;
   font-weight: lighter;
 }
-.side-group-head-arrow{
-  transform:rotate(180deg)
+.side-group-head-arrow {
+  transform: rotate(180deg);
 }
-.side-group-head-arrow.active{
-  transform:rotate(0deg)
+.side-group-head-arrow.active {
+  transform: rotate(0deg);
 }
-.inner-setting{
-  background:#Fff;
-  border-radius:15px;
-  position:absolute;
-  width:100%;
-  top:115%;box-shadow: 0 0 10px 0 rgb(33 108 252 / 16%);
-  padding:2rem;
-  display:none;
+.inner-setting {
+  background: #fff;
+  border-radius: 15px;
+  position: absolute;
+  width: 100%;
+  top: 115%;
+  box-shadow: 0 0 10px 0 rgb(33 108 252 / 16%);
+  padding: 2rem;
+  display: none;
 }
 
-.inner-setting.active{
-  display:block;
+.inner-setting.active {
+  display: block;
 }
-.inner-setting .top{
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  padding-bottom:1rem;
-    border-bottom:1px solid #11193c;
+.inner-setting .top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #11193c;
 }
-.inner-setting .top h5{
+.inner-setting .top h5 {
   font-size: 16px;
-    line-height: 1.5;
-    color: #11193C;
-    margin-left:5px;
-    font-weight:400;
-    
+  line-height: 1.5;
+  color: #11193c;
+  margin-left: 5px;
+  font-weight: 400;
 }
-  .inner-setting ul{
-    margin-top:2rem;
-    padding-left:2.5rem;
-  }
-    .inner-setting ul > *+*{
-      margin-top:1rem;
-    }
-    .inner-setting ul > li a{
-    opacity: 0.8;
-    font-size: 13px;
-    line-height: 1.53;
-    color: #11193c ;
-    }
+.inner-setting ul {
+  margin-top: 2rem;
+  padding-left: 2.5rem;
+}
+.inner-setting ul > * + * {
+  margin-top: 1rem;
+}
+.inner-setting ul > li a {
+  opacity: 0.8;
+  font-size: 13px;
+  line-height: 1.53;
+  color: #11193c;
+}
 aside nav {
   margin-top: 30px;
   margin-bottom: 50px;
@@ -360,7 +360,7 @@ aside nav li a div img {
   }
   .sidebar-wrapper .image-wrapper {
     position: absolute;
-    right: -30px;
+    right: -50px;
     z-index: 222;
     top: 10px;
     border-radius: 99px;
