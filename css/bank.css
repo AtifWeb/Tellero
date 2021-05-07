@@ -14,7 +14,7 @@
   justify-content: space-between;
   background-color: #fff;
   padding: 0.35rem 1rem;
-  box-shadow: 0 3px 10px 0 rgb(33 108 252 / 16%);
+  box-shadow: 0 3px 10px 0 rgb(33 108 252 / 3%);
 }
 .export-body-top {
   padding: 0.8rem 2rem;
@@ -281,6 +281,10 @@
   .right-arrow-icon-mbl,
   .left-arrow-icon-mbl {
     display: block;
+  }
+  .right-arrow-icon-mbl img,
+  .left-arrow-icon-mbl img {
+    margin-top: 6px;
   }
   .right-arrow-icon-mbl {
     flex: 1;

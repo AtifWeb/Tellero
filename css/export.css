@@ -160,6 +160,10 @@
     display: block;
     cursor: pointer;
   }
+  .right-arrow-icon-mbl-shoutcut img,
+  .left-arrow-icon-mbl-shoutcut img {
+    margin-top: 6px;
+  }
   .right-arrow-icon-mbl {
     flex: 1;
   }
