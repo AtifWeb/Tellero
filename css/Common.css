@@ -60,7 +60,7 @@ aside .logo-wrapper {
   padding: 19px 10px;
   background-color: #fff;
   margin-bottom: 15px;
-  /* box-shadow: 0 3px 10px 0 rgb(33 108 252 / 16%); */
+  box-shadow: 0 3px 10px 0 rgb(33 108 252 / 6%);
   border: solid 1px #ffffff;
   min-height: 121px !important;
   border-radius: 15px;
@@ -86,7 +86,7 @@ aside .logo-wrapper p {
   justify-content: center;
   height: 73px;
   padding: 0rem 2rem;
-  /* box-shadow: 0 3px 10px 0 rgb(33 108 252 / 16%); */
+  box-shadow: 0 3px 10px 0 rgb(33 108 252 / 6%);
   border-radius: 15px;
   cursor: pointer;
 }
@@ -115,7 +115,7 @@ aside .logo-wrapper p {
   position: absolute;
   width: 100%;
   top: 115%;
-  /* box-shadow: 0 0 10px 0 rgb(33 108 252 / 16%); */
+  box-shadow: 0 0 10px 0 rgb(33 108 252 / 6%);
   padding: 2rem;
   display: none;
 }
